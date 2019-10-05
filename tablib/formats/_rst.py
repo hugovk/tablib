@@ -43,7 +43,7 @@ def _max_word_len(text):
     8
 
     """
-    return max((len(word) for word in text.split()))
+    return max(len(word) for word in text.split())
 
 
 def _get_column_string_lengths(dataset):
