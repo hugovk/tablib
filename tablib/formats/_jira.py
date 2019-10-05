@@ -22,7 +22,7 @@ def export_set(dataset):
 
     header = _get_header(dataset.headers) if dataset.headers else ''
     body = _get_body(dataset)
-    return '%s\n%s' % (header, body) if header else body
+    return '{}\n{}'.format(header, body) if header else body
 
 
 def _get_body(dataset):
