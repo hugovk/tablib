@@ -11,8 +11,7 @@ repos:
       - id: isort
 
   - repo: https://github.com/isidentical/teyit
-    rev: 0.4.2
-    language_version: python3.9
+    rev: 0.4.1
     hooks:
       -   id: teyit
 
